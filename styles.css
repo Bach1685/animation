@@ -1,0 +1,32 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+    text-decoration: none;
+    display: inline-block;
+    line-height: 60px;
+    padding: 0px 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 18px;
+    border-radius: 10px;
+    top: 0;
+    position: relative;
+}
+
+.button_1{
+    color: #fff;
+    background: #5e5375;
+    box-shadow: 0 5px 0 #3c354a;
+}
+
+.button_1:hover{
+    top: 2px;
+    background: #18b5a4;
+    box-shadow: 0 3px 0 #3c354a;
+}
