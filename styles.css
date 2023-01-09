@@ -19,10 +19,12 @@ body{
     position: relative;
 }
 
-.button_1{
+.button_1 {
     color: #fff;
     background: #5e5375;
     box-shadow: 0 5px 0 #3c354a;
+    /* время, за которое происходят изменения */
+    transition-duration: 0.3s; 
 }
 
 .button_1:hover{
