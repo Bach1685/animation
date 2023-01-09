@@ -24,9 +24,11 @@ body{
     background: #5e5375;
     box-shadow: 0 5px 0 #3c354a;
     /* время, за которое происходят изменения */
-    /* transition-duration: 0.3s; */
+    /* 1s - background-color, 5000ms - top */
+    transition-duration: 1s, 10000ms; 
     /* время, за которое происходят изменения в мс */
-    transition-duration: 1200ms; 
+    /* transition-duration: 1200ms;  */
+    transition-property: background-color, top;
 }
 
 .button_1:hover{
