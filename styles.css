@@ -17,13 +17,17 @@ body {
     animation-name: white-circle;
     animation-duration: 2s;
     animation-timing-function: linear;
-    /* можно указать infinity) */
-    animation-iteration-count: 3; 
+    /* можно указать infinite) */
+    animation-iteration-count: infinite; 
 }
 
 @keyframes white-circle {
     0%{
         left: 0;
+    }
+
+    50%{
+        border-radius: 0%;
     }
 
     100%{
