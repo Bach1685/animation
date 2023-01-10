@@ -7,6 +7,11 @@ body {
 .content {
     padding: 50px;
 }
+
+.content:hover .content__circle {
+    animation-play-state: paused;
+}
+
 .content__circle {
     width: 100px;
     height: 100px;
