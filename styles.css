@@ -3,10 +3,11 @@ body{
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 .button{
+    height: 60px;
     text-decoration: none;
     display: inline-block;
     line-height: 60px;
@@ -17,23 +18,27 @@ body{
     border-radius: 10px;
     top: 0;
     position: relative;
+    transition-duration: 1200ms; 
+    width: 0;
 }
 
 .button_1 {
     color: #fff;
     background: #5e5375;
     box-shadow: 0 5px 0 #3c354a;
-    /* время, за которое происходят изменения */
+    width: 600px;
+    /* время, за которое происходят изменения
     /* 1s - background-color, 100ms - top и box-shadow */
-    transition-duration: 1s, 100ms, 100ms; 
+    /* transition-duration: 1s, 100ms, 100ms;  */
     /* время, за которое происходят изменения в мс */
-    /* transition-duration: 1200ms;  */
-    transition-property: background-color, top, box-shadow;
-    transition-delay: 0s, 0.5s, 0.5s;
+    /* transition-property: background-color, top, box-shadow; */
+    /* transition-delay: 0s, 0.5s, 0.5s;  */
+    /* transition-timing-function: ease; */
 }
 
-.button_1:hover{
+.button_2{
     top: 2px;
     background: #18b5a4;
     box-shadow: 0 3px 0 #3c354a;
+    width: 500px;
 }
