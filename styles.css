@@ -19,18 +19,23 @@ body {
     animation-timing-function: linear;
     /* можно указать infinite) */
     animation-iteration-count: infinite; 
+    /* alternate - каждая чётная итерация банимации удет обратной */
+    animation-direction: alternate;
 }
 
 @keyframes white-circle {
     0%{
         left: 0;
+        top: 0;
     }
 
     50%{
         border-radius: 0%;
+        top: 100px;
     }
 
     100%{
         left: 500px;
+        top: 0;
     }
 }
