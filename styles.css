@@ -23,9 +23,14 @@ body {
     animation-duration: 2s;
     animation-timing-function: linear;
     /* можно указать infinite) */
-    animation-iteration-count: infinite; 
+    animation-iteration-count: 1; 
     /* alternate - каждая чётная итерация банимации удет обратной */
     animation-direction: alternate;
+    /* анимация начинает работать только через N секунд*/
+    /* если animation-delay выставить -1s, а  animation-duration: 2s, то анимация начнётся с половины цикла*/
+    animation-delay: -1s;
+    /* фиксирует конечные css правила для данного класса */
+    animation-fill-mode: forwards;
 }
 
 @keyframes white-circle {
